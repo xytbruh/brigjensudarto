@@ -2,10 +2,11 @@
 import Content from "@/components/Content";
 import { Input } from "@material-tailwind/react";
 import Image from "next/image";
-
+import Analytics from "@vercel/analytics";
 export default function Home() {
   return (
     <Content>
+      <Analytics />
       <div id="about" className="bg-[#ff5001] pb-5 lg:pb-0">
         <div className="max-w-[1280px] block lg:flex mx-auto justify-center items-center">
           <div className="flex items-center justify-center">
