@@ -37,7 +37,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="bg-[url('/timeline.jpg')] bg-no-repeat bg-center bg-cover relative py-20 mb-20">
+        <div className="bg-[url('/overlay.png')] bg-no-repeat bg-center bg-cover relative py-20 mb-20">
           <div className="absolute top-0 left-0 pointer-events-none w-full h-full opacity-80  bg-[#ff5001]"></div>
           <div className="container mx-auto">
             <h1 className="text-center relative font-bold text-white text-3xl">
@@ -45,7 +45,7 @@ export default function Home() {
             </h1>
             <div className="grid grid-cols-1">
               <ul className="list-none relative pl-0">
-                <div className="w-[8px] h-full bg-[#80d0c7] absolute left-[52px] top-0 overflow-hidden"></div>
+                <div className="w-[8px] h-full bg-black absolute left-[52px] top-0 overflow-hidden"></div>
                 <li className="relative pt-[20px] pr-0 pb-[65px] pl-[145px]">
                   <h4 className="text-white font-semibold text-2xl mb-3">
                     Bersatu
@@ -58,7 +58,7 @@ export default function Home() {
                     aliquam? Voluptas, accusamus omnis?
                   </p>
 
-                  <div className="absolute left-0 top-0 w-28 h-28 flex justify-center items-center bg-[#80d0c7] rounded-[50%] z-[1] transition-all duration-100">
+                  <div className="absolute left-0 top-0 w-28 h-28 flex justify-center items-center bg-black rounded-[50%] z-[1] transition-all duration-100">
                     <div className="w-20 h-20 border-4 rounded-[50%] z-[1] "></div>
                   </div>
                 </li>
@@ -66,7 +66,7 @@ export default function Home() {
             </div>
             <div className="grid grid-cols-1">
               <ul className="list-none relative pl-0">
-                <div className="w-[8px] h-full bg-[#80d0c7] absolute left-[52px] top-0 overflow-hidden"></div>
+                <div className="w-[8px] h-full bg-black absolute left-[52px] top-0 overflow-hidden"></div>
                 <li className="relative pt-[20px] pr-0 pb-[65px] pl-[145px]">
                   <h4 className="text-white font-semibold text-2xl mb-3">
                     Berkarya
@@ -79,7 +79,7 @@ export default function Home() {
                     aliquam? Voluptas, accusamus omnis?
                   </p>
 
-                  <div className="absolute left-0 top-0 w-28 h-28 flex justify-center items-center bg-[#80d0c7] rounded-[50%] z-[1] transition-all duration-100">
+                  <div className="absolute left-0 top-0 w-28 h-28 flex justify-center items-center bg-black rounded-[50%] z-[1] transition-all duration-100">
                     <div className="w-20 h-20 border-4 rounded-[50%] z-[1] "></div>
                   </div>
                 </li>
@@ -99,7 +99,7 @@ export default function Home() {
                     aliquam? Voluptas, accusamus omnis?
                   </p>
 
-                  <div className="absolute left-0 top-0 w-28 h-28 flex justify-center items-center bg-[#80d0c7] rounded-[50%] z-[1] transition-all duration-100">
+                  <div className="absolute left-0 top-0 w-28 h-28 flex justify-center items-center bg-black rounded-[50%] z-[1] transition-all duration-100">
                     <div className="w-20 h-20 border-4 rounded-[50%] z-[1] "></div>
                   </div>
                 </li>
