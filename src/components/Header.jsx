@@ -14,7 +14,7 @@ export default function Header() {
         <div className="items-center mx-auto flex justify-between">
           <div className="flex items-center gap-4">
             <FaPhone />
-            <span>08383712371</span>
+            <span>081218569085</span>
             <span className="font-bold">|</span>
             <FaMap />
             <span>brigjensudarto@gmail.com</span>
