@@ -17,7 +17,7 @@ export default function Header() {
             <span>08383712371</span>
             <span className="font-bold">|</span>
             <FaMap />
-            <span>dimasnugraha@gmail.com</span>
+            <span>brigjensudarto@gmail.com</span>
           </div>
 
           <div>
