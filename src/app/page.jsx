@@ -52,10 +52,9 @@ export default function Home() {
                   </h4>
 
                   <p className="text-white">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Reiciendis, cumque magnam? Sequi, cupiditate quibusdam alias
-                    illum sed esse ad dignissimos libero sunt, quisquam numquam
-                    aliquam? Voluptas, accusamus omnis?
+                    Menjadi wakil rakyat yang mampu mempersatukan berbagai
+                    kelompok masyarakat, tanpa memandang perbedaan dan
+                    kepentingan pribadi, untuk mencapai kemajuan bersama.
                   </p>
 
                   <div className="absolute left-0 top-0 w-28 h-28 flex justify-center items-center bg-black rounded-[50%] z-[1] transition-all duration-100">
@@ -73,10 +72,10 @@ export default function Home() {
                   </h4>
 
                   <p className="text-white">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Reiciendis, cumque magnam? Sequi, cupiditate quibusdam alias
-                    illum sed esse ad dignissimos libero sunt, quisquam numquam
-                    aliquam? Voluptas, accusamus omnis?
+                    Melakukan tindakan nyata dan konstruktif dalam dunia
+                    legislatif untuk menciptakan kebijakan yang berdampak
+                    positif bagi masyarakat, dengan terus bekerja keras dan
+                    berdedikasi.
                   </p>
 
                   <div className="absolute left-0 top-0 w-28 h-28 flex justify-center items-center bg-black rounded-[50%] z-[1] transition-all duration-100">
@@ -93,10 +92,10 @@ export default function Home() {
                   </h4>
 
                   <p className="text-white">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Reiciendis, cumque magnam? Sequi, cupiditate quibusdam alias
-                    illum sed esse ad dignissimos libero sunt, quisquam numquam
-                    aliquam? Voluptas, accusamus omnis?
+                    Membangun masyarakat yang sejahtera melalui usulan,
+                    pengusulan, dan pengawalan terhadap program-program
+                    pembangunan yang bertujuan meningkatkan kualitas hidup dan
+                    kesejahteraan rakyat secara menyeluruh.
                   </p>
 
                   <div className="absolute left-0 top-0 w-28 h-28 flex justify-center items-center bg-black rounded-[50%] z-[1] transition-all duration-100">
