@@ -58,9 +58,9 @@ export function Nav() {
   return (
     <>
       <Header />
-      <Navbar className="sticky top-0 z-10 h-max max-w-full mx-auto rounded-none py-2 px-6 lg:px-12 lg:py-4">
+      <nav className="sticky top-0 z-10 h-max max-w-full mx-auto bg-white rounded-none py-2 px-6 lg:px-12 lg:py-4">
         <div className="flex mx-auto items-center justify-between text-blue-gray-900">
-          <Image src="/logo.png" width="35" alt="logo" height="35" />
+          <Image src="/logo.png" width="35" alt="logo" height="35" priority />
           <div className=" hidden lg:block">{navList}</div>
           <Button size="sm" className="hidden lg:inline-block bg-[#ff5001]">
             <span>Hubungi Kami</span>
@@ -109,7 +109,7 @@ export function Nav() {
             <span>Hubungi Kami</span>
           </Button>
         </Collapse>
-      </Navbar>
+      </nav>
     </>
   );
 }

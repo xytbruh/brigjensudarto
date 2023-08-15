@@ -15,7 +15,7 @@ export default function Home() {
                 src="/hero.png"
                 width="400"
                 height="400"
-                priority={true}
+                priority
                 alt="hero photo"
               />
             </div>
@@ -37,6 +37,43 @@ export default function Home() {
           </div>
         </div>
 
+        <div className="max-w-[1280px] my-20 block lg:flex mx-auto justify-center items-center">
+          <div className="flex items-center justify-center">
+            <Image
+              src="/profil1.png"
+              priority
+              width="400"
+              height="400"
+              alt="hero photo"
+            />
+          </div>
+          <div className="mx-5">
+            <div className="h-auto  lg:w-[550px] w-full  text-black p-10 justify-center">
+              <h3 className="font-bold text-xl text-center lg:text-left">
+                Brigjen (pur) Sudarto, S.IP
+              </h3>
+              <h6 className="uppercase opacity-60 text-sm text-center lg:text-left">
+                CALON ANGGOTA DPR-RI LAMPUNG
+              </h6>
+              <hr className="border-gray-700 border-2 w-52 my-3 mx-auto lg:mx-0" />
+              <p className=" text-sm tracking-wide">
+                Dengan dilandasi jiwa raga saya seperti itu, sy mencermati
+                kehidupan berbangsa & bernegara yg tdk baik-baik saja, nyata²
+                banyak terjadi penyimpangan terhadap Pancasila & UUD 1945 serta
+                banyak pejabat penyelenggara kenegaraan yg tidak jujur, tidak
+                benar & tidak adil sehingga menyengsarakan kehidupan rakyat.
+                Oleh karenanya disaat saya menikmati masa pensiun yg sudan
+                nyaman ini, saya menjadi tidak bisa tinggal diam saja, jiwa raga
+                saya terpanggil utk bangkit memperjuangkan tegaknya kejujuran,
+                kebenaran & keadilan agar rakyat sebagai pemilik negara ini bisa
+                menikmati hudup adil, makmur & sejahtera.
+              </p>
+              <button className="bg-[#ff5001] my-2 text-white text-xs p-2 rounded-md w-full lg:w-auto">
+                Mohon Doa Dan Dukungannya
+              </button>
+            </div>
+          </div>
+        </div>
         <div className="bg-[url('/overlay.png')] bg-no-repeat bg-center bg-cover relative py-20 mb-20">
           <div className="absolute top-0 left-0 pointer-events-none w-full h-full opacity-80  bg-[#ff5001]"></div>
           <div className="container mx-auto">
@@ -106,67 +143,75 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="max-w-[1280px] my-20 block lg:flex mx-auto justify-center items-center">
-          <div className="flex items-center justify-center">
-            <Image
-              src="/profil1.png"
-              priority={true}
-              width="400"
-              height="400"
-              alt="hero photo"
-            />
-          </div>
-          <div className="mx-5">
-            <div className="h-auto  lg:w-[550px] w-full  text-black p-10 justify-center">
-              <h3 className="font-bold text-xl text-center lg:text-left">
-                Brigjen (pur) Sudarto, S.IP
-              </h3>
-              <h6 className="uppercase opacity-60 text-sm text-center lg:text-left">
-                CALON ANGGOTA DPR-RI LAMPUNG
-              </h6>
-              <hr className="border-gray-700 border-2 w-52 my-3 mx-auto lg:mx-0" />
-              <p className=" text-sm tracking-wide">
-                Dengan dilandasi jiwa raga saya seperti itu, sy mencermati
-                kehidupan berbangsa & bernegara yg tdk baik-baik saja, nyata²
-                banyak terjadi penyimpangan terhadap Pancasila & UUD 1945 serta
-                banyak pejabat penyelenggara kenegaraan yg tidak jujur, tidak
-                benar & tidak adil sehingga menyengsarakan kehidupan rakyat.
-                Oleh karenanya disaat saya menikmati masa pensiun yg sudan
-                nyaman ini, saya menjadi tidak bisa tinggal diam saja, jiwa raga
-                saya terpanggil utk bangkit memperjuangkan tegaknya kejujuran,
-                kebenaran & keadilan agar rakyat sebagai pemilik negara ini bisa
-                menikmati hudup adil, makmur & sejahtera.
+
+        <div className="mx-auto max-w-[1280px] p-12">
+          <h1 className="text-center text-black text-2xl font-bold">
+            Keorganisasian
+          </h1>
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 py-6">
+            <div className="shadow-md bg-black text-white rounded-lg p-4">
+              <p className="mb-3 text-xs lg:text-sm opacity-70">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta
+                voluptate illo vero, ipsum laboriosam magni repudiandae,
+                cupiditate rerum recusandae repellat rem error, voluptatibus sit
+                consequuntur porro eveniet. Voluptatibus, et nisi.
               </p>
-              <button className="bg-[#ff5001] my-2 text-white text-xs p-2 rounded-md w-full lg:w-auto">
-                Mohon Doa Dan Dukungannya
-              </button>
+              <span className="font-bold">Lorem</span>
+            </div>
+            <div className="shadow-md bg-black text-white rounded-lg p-4">
+              <p className="mb-3 text-xs lg:text-sm opacity-70">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+                iste quisquam at illo, veniam, quod tempora sed nam, voluptatem
+                labore quis vero expedita ipsum aliquam mollitia molestias ad.
+                Et, enim.
+              </p>
+              <span className="font-bold">lorem</span>
+            </div>
+            <div className="shadow-md bg-black text-white rounded-lg p-4">
+              <p className="mb-3 text-xs lg:text-sm opacity-70">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+                recusandae corporis, possimus, voluptatem esse expedita
+                laboriosam maiores dolore quidem non ut unde nam, doloremque
+                voluptates deserunt ratione tempore nemo quos!
+              </p>
+              <span className="font-bold">lorem</span>
             </div>
           </div>
         </div>
+
         <div className="bg-black">
           <div className="mx-auto max-w-[1280px] p-8">
             <h1 className="text-center text-white text-2xl font-bold">
               Apa Kata Pendukung Saya
             </h1>
-            <div className="grid grid-cols-3 gap-4 py-6">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 py-6">
               <div className="shadow-md bg-gray-200 rounded-lg p-4">
                 <p className="mb-3 text-xs lg:text-sm opacity-70">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
-                  quisquam distinctio a quo
+                  Kami butuh profile yang memiliki kemampuan berpikir, berbuat,
+                  adil, berhati nurani lembut dan baik, berani terdepan membela
+                  setiap desakan dan aksi kezaliman, beriman, bertakwa,
+                  membangun kebersamaan tanpa ada perbedaan agama, warna,
+                  politik, komunitas, suku dan ras.
                 </p>
                 <span className="font-bold">Masyarakat</span>
               </div>
               <div className="shadow-md bg-gray-200 rounded-lg p-4">
                 <p className="mb-3 text-xs lg:text-sm opacity-70">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
-                  quisquam distinctio a quo
+                  Terima kasih, Bapak Selamat, atas dedikasi dan komitmen Anda
+                  untuk mewakili aspirasi masyarakat. Saya yakin Anda memiliki
+                  visi yang kuat untuk memajukan Provinsi ini. Semoga Anda
+                  terpilih sebagai anggota DPR Provinsi yang berpengaruh dan
+                  berintegritas.
                 </p>
                 <span className="font-bold">Masyarakat</span>
               </div>
               <div className="shadow-md bg-gray-200 rounded-lg p-4">
                 <p className="mb-3 text-xs lg:text-sm opacity-70">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
-                  quisquam distinctio a quo
+                  Bapak Selamat, saya sangat mengapresiasi keberanian dan
+                  semangat Anda dalam berjuang demi kepentingan rakyat. Dukungan
+                  saya sepenuhnya untuk Anda dalam pencapaian tujuan dan agenda
+                  yang Anda usung. Semoga menjadi suara rakyat yang lantang di
+                  DPR Provinsi!
                 </p>
                 <span className="font-bold">Masyarakat</span>
               </div>
