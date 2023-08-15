@@ -57,6 +57,7 @@ export function Nav() {
 
   return (
     <>
+    
       <Header />
       <nav className="sticky top-0 z-10 h-max max-w-full mx-auto bg-white rounded-none py-2 px-6 lg:px-12 lg:py-4">
         <div className="flex mx-auto items-center justify-between text-blue-gray-900">
