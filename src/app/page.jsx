@@ -12,7 +12,7 @@ export default function Home() {
           <div className="max-w-[1280px] block lg:flex mx-auto justify-center items-center">
             <div className="flex items-center justify-center">
               <Image
-                src="/hero.png"
+                src="/jendral2.png"
                 width="400"
                 height="400"
                 priority
